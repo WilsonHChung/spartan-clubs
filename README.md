@@ -18,7 +18,7 @@ Visual Studio Code
 Terminal
 ```
 
-### Installing
+### Installing and Compiling
 
 In order to be able to use the spartan apps web app:
 
@@ -70,6 +70,26 @@ to attach a comment to the about to be committed files.
 to push the files onto the GitHub repository.
 ```
 
+## Using Spartan Clubs
+```
+1. Open index.html within the spartan-clubs/homepage directory and start using the web app.    
+```
+
+```
+2. Press search button on the spartan apps homepage.
+```
+
+```
+3. Submit courses in order to apply search filters.   
+```
+
+```
+4. Type into the search bar to find a club you want.  
+```
+
+```
+5. Click on the club in order to access the clubpage and interact with the content and buttons provided.  
+```
 
 ## Deployment
 
