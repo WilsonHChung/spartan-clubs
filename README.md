@@ -93,7 +93,7 @@ to push the files onto the GitHub repository.
 
 ## Deployment
 
-The web app can be used online if utilized with the GitHub Pages functionality on github.com 
+The web app can be used locally or online. The online requirements can be utilized with the GitHub Pages functionality on github.com 
 on a user's GitHub account.
 
 ## Built With
