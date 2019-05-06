@@ -2,16 +2,129 @@
 <html>
 <head>
 <style>
-body {
-  background-image: url("file:///Users/wilsonchung/Documents/GitHub/spartan-clubs/img/dragon-boat/2017CollegeCup.jpg");
+
+.button{
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: incline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
+
+*{
+  box-sizing:border-box;
+}
+img{
+  border-radius: 50%;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: gold;
+}
+
+.content{
+  position:absolute;
+  width:inherit;
+  height:auto;
+  top:50%;
+  transform:translateY(-50%);
+  text-align: center;
+  font-family: Arial;
+  color: white;
+  font-style:italic;
+  text-transform: capitalize;
+  height: 75px;
+  left: 500px;
+  
+}
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: %;
+}
+
+body {
+  background-image: url("C:/Users/Kenny Nguyen/Documents/spartan-clubs/img/Homepage/SRAC SE Corner Aerial.jpg");
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.rounded{
+  width:150px;
+  margin:auto;
+  top: -40px;
+}
+.rounded2{
+  width:-100px;
+  margin:auto;
+  top: -40px;
+}
+.rounded img{
+  border-radius: 50%;
+}
+.rounded2 img{
+  border-radius: 50%;
+}
+.column{
+  float:left;
+  width: 33.33%;
+  padding: 5px;
+
+
+}
+
+.row::after{
+  content: " ";
+  clear: both;
+  display: table;
+}
+
 </style>
 </head>
 <body>
 
-<h1>Hello World!</h1>
+<h1 align="center">San Jose State University</h1>
+<h2 align="center">Home of the Spartans</h2>
 
-<p>This page has an image as the background!</p>
+<div class = 'circle'>
+  <div class = "content">
+    <h1>Seaching for Clubs</h1>
+  </div>
+
+  <div class = "rounded">
+    <img src = "C:/Users/Kenny Nguyen/Documents/spartan-clubs/img/Homepage/download.jpg" width = "150px" height = "150px">
+  </div>
+
+  <div class = "row">
+    <div class = "column">
+      <img src = "C:/Users/Kenny Nguyen/Documents/spartan-clubs/img/Homepage/60730.jpg" width = "150px" height = "150px">
+      <p>Edit my Schedule</p>
+    </div>
+    <div class = "column">
+    <img src = "C:/Users/Kenny Nguyen/Documents/spartan-clubs/img/Homepage/oeuFd7k.jpg" width = "150px" height = "150px">
+    <p> My clubs</p>
+  </div>
+      <div class = "column">
+      <img src = "C:/Users/Kenny Nguyen/Documents/spartan-clubs/img/Homepage/mail.jpg" width = "150px" height = "150px">
+      <p> Check or Send Mail</p>
+    </div>
+    <div class = "column">
+      <img src = "C:/Users/Kenny Nguyen/Documents/spartan-clubs/img/Homepage/boy-avatar-on-round-button_icon-icons.com_68325.jpg" width = "150px" height = "150px">
+      <p> Configure my Profile </p>
+    </div>
+  </div>
+
 
 </body>
 </html>
