@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.css">
+  <title>Search For A Club</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="center-align">
+      Search For A Club
+    </h1>
+    <input type="text" id="filterInput" placeholder="Search club names...">
+    <ul id="names" class="collection with-header">
+      <li class="collection-header">
+        <h5>#</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">2019 ASCE MIDPAC</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">3D Printing Club at SJSU</a>
+      </li>
+      <li class="collection-header">
+        <h5>A</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Abstraction</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Academic Scholars Association</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Accounting Innovation Group</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Active Minds</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Advanced Space Exploration</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">African American Commencement Committee</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">AkbayanSJSU</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Alpha Kappa Psi</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Alpha Phi</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Alpha Tau Omega Fraternity</a>
+      </li>
+      <li class="collection-header">
+        <h5>B</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Biomedical Engineering Society</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Black Alliance of Scientists and Engineers</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">BlockLegion</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">BMEidea</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Braven@SJSU Club</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Bridge Engineering Student Transition Program</a>
+      </li>
+      <li class="collection-header">
+        <h5>C</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">CADRE Student Organization</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">California Nursing Student Association</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Campuses Organized and United for Good Health at San Jose State University</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">ChAD Club</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Chi Pi Sigma</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Chicano Commencement</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Chinese Student Association</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Choirs at SJSU</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Christians on Campus</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Club Archery</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Club Basketball</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Club Softball</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Club Swimming</a>
+      </li>
+      <li class="collection-header">
+        <h5>D</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Data Science Club</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Delta Gamma</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Delta Sigma Phi</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Design Build Fly at SJSU</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Diving Club</a>
+      </li>
+      <li class="collection-item">
+        <a href="file:///Users/wilsonchung/Documents/GitHub/spartan-clubs/clubpage/index.html">Dragon Boat</a>
+      </li>
+      <li class="collection-header">
+        <h5>E</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Eco Representatives (EcoReps</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Engineers without Borders</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Epsilon Pi Tau</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Esports at San Jose</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Eta Kappa Nu</a>
+      </li>
+      <h5>F</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Fashion Association</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Film Production Society</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Forensic Science Studies</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Financial Management Association</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Free the Slaves</a>
+    </li>
+    <h5>G</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Game Development Club</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Geography Club</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Geology Club</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Girls Who Code Loop</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Global Student Union</a>
+    </li>
+    <h5>H</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Habesha Students Association</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Health Science 104 Service Learning Club</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Hindu Yuva</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Hip Hop Club at SJSU</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Hong Kong Student Association</a>
+    </li>
+    <h5>I</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Ice Hockey at San Jose State University</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">IDEAS</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Improv Club</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Indian Student Association</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Institute of Industrial and Systems Engineers</a>
+    </li>
+    <h5>J</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Japanese Student Society</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Jewelry and Small Metals Guild</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">JSA Career at SJSU</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Juggle at SJSU</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Justice Studies Graduate Students Association</a>
+    </li>
+    <h5>K</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Kappa Alpha Psi, Fraternity Inc.</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Kendo and Naganinata Club</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Kinesiology Ambassadors Club</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Korean Entertainment Student Association (KESA)</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Korean Student Association</a>
+    </li>
+    <h5>L</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">LambdaSigma Gamma Sororioty, Inc.</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Lambda Theta Alpha Latin Sorority, Incoporated</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Lebanese Social Club</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Latter-Day Saint Association</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Latino Business Student Association</a>
+    </li>
+    <h5>M</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Marketing Association at San Jose State</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Material Advantage</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Men's Club Soccer</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Miniature Club</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Muslim Student Association</a>
+    </li>
+    <h5>N</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">NAfME Collegiate at SJSU</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">National Pan Hellenic Council</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">National Residence Hall Honorary</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">NEO Design</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">New Heights</a>
+    </li>
+    <h5>O</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Olympic and Powerlifting Team</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Omega Psi Phi</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Order of Omega</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Original Wizarding League of Spartans</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Out in Science, Technology, Engineering and Mathematics (oSTEM)</a>
+    </li>
+    <h5>P</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Pride of the Pacific Islands</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Project SHINE</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Promethians</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">PRSSA</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Psi Chi</a>
+    </li>
+    <h5>Q</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Queer & Asian SJSU</a>
+    </li>
+  <h5>R</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">RECREATION THERAPY ASSOCIATION, SJSU</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Reed Magazine</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Reformed Univerity Fellowship</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Residence Hall Association</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Rocket Club</a>
+    </li>
+    <h5>S</h5>
+  </li>
+  <li class="collection-item">
+    <a href="#">Sigma Nu</a>
+  </li>
+  <li class="collection-item">
+    <a href="#">Spartan Racing</a>
+  </li>
+  <li class="collection-item">
+    <a href="#">Spartan Wrestling</a>
+  </li>
+  <li class="collection-item">
+    <a href="#">Spartans for Life</a>
+  </li>
+  <li class="collection-item">
+    <a href="#">Super Smash Bros at SJSU</a>
+  </li>
+  <h5>T</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Table Top Gaming Club</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">The AI Society</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Tahelka</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Taiwanese Student Association</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Tau Beta Pi Engineering Honor Society</a>
+    </li>
+    <h5>U</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Undergraduate Social Work Association</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">United Malaysians Association</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">United Soriority and Fraternity Council</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Unity in the Community</a>
+    </li>
+    <h5>V</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">V-Day @ SJSU</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Vamo a Oaxaca - Intercambio</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Veterans Student Organization</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Vietnamese Student Association</a>
+    </li>
+    <h5>W</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Women in Animation Student Chapter at SJSU</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Women in Aviation SJSU</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Women in Business</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Women in Design</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Women's Club Basketball</a>
+    </li>
+    <h5>X</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Xicanx Graduate Council (XGC)</a>
+    </li>
+    <h5>Y</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Yes Plus Club</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Young Life</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Yoga Club</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Young Americans for Liberty at San Jose</a>
+    </li>
+    <h5>Z</h5>
+    </li>
+    <li class="collection-item">
+      <a href="#">Zeta Chi Epsiolon</a>
+    </li>
+    <li class="collection-item">
+      <a href="#">Zeta Phi Beta Soriority Incorporated</a>
+    </li>
+    </ul>
+  </div>
+
+  <script>
+    // Get input element
+    let filterInput = document.getElementById('filterInput');
+    // Add event listener
+    filterInput.addEventListener('keyup', filterNames);
+
+    function filterNames(){
+      // Get value of input
+      let filterValue = document.getElementById('filterInput').value.toUpperCase();
+
+      // Get names ul
+      let ul = document.getElementById('names');
+      // Get lis from ul
+      let li = ul.querySelectorAll('li.collection-item');
+
+      // Loop through collection-item lis
+      for(let i = 0; i < li.length; i++){
+        let a = li[i].getElementsByTagName('a')[0];
+        // If matched
+        if(a.innerHTML.toUpperCase().indexOf(filterValue) > -1){
+          li[i].style.display = '';
+        } else {
+          li[i].style.display = 'none';
+        }
+      }
+
+    }
+  </script>
+</body>
+</html>
